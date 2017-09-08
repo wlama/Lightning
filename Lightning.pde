@@ -40,7 +40,7 @@ void cloud() {
   ellipse(525, 60, 150, 125);
 }
 
-void mouseMoved() {
+void mousePressed() {
   background(0, 0, 0);
   cloud();
   startX = 300;
